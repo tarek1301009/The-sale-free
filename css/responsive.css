@@ -1,0 +1,107 @@
+
+/*================================
+============= Responsive==========
+================================== */
+
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+  
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+
+
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+
+    .container {width:100%}
+    .header h1 {
+        font-size: 40px;
+        line-height: 57px;
+        padding: 0;
+    }
+    .header img {
+        width: 55%;
+    }
+    .header::before {
+        height: 550px;
+    }
+    .shadow {
+        padding: 97px 0px;
+    }
+    .shadow img {
+        width: 60%;
+    }
+    .faq-area .container > h1 {
+        font-size: 15px;
+        line-height: 65px;
+    }
+    .header img {
+        margin-top: 65px;
+    }
+
+    .step-1, .step-2 {
+        width: 100%;
+    }
+
+    .nft-bottom p {
+        margin: 0;
+        color: #61748B;
+    }
+
+    .left-img img {
+        width: 60%;
+    }
+
+
+
+    section.free-nft h2 {
+        font-size: 48px;
+        line-height: 65px;}
+
+    .utility-details h2 {
+    padding: 0;
+    }
+    .faq-area .container .row .accordion-item {
+        width: 90%;
+    }
+    .faq-area .container .row .accordion-button {
+        margin-left: 10px;
+    }
+    
+    .accordion .accordion-item .accordion-button::after {
+        margin-left: -22px;
+    }
+
+    section.free-nft .container:before {
+        width: 90%;
+        height: 100%;
+        top: 0;
+    }
+
+    .faq-area .container .row .accordion-button:not(.collapsed) {
+        margin-left: 0;
+    }
+
+}
+
+
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+}

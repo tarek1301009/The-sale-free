@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@300;500&family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap');
+ body {
+	font-family: 'Noto Serif', serif;
+	font-family: 'Noto Serif Display', serif;
+	font-weight: normal;
+	font-style: normal;
+    font-size: 24px;
+    line-height: 32px;
+}
+.img {
+	max-width: 100%;
+	transition: all 0.3s ease-out 0s;
+}
+a,
+.button {
+	-webkit-transition: all 0.3s ease-out 0s;
+	-moz-transition: all 0.3s ease-out 0s;
+	-ms-transition: all 0.3s ease-out 0s;
+	-o-transition: all 0.3s ease-out 0s;
+	transition: all 0.3s ease-out 0s;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+.capitalize {
+	text-transform: capitalize;
+}
+.header .container {
+    position: relative;
+    text-align: center;
+}
+
+.header::before {
+    position: absolute;
+    content: "";
+    background-image: url("../img/JGCrowd.jpeg");
+    height: 850px;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: -9;
+    clip-path: polygon(0 0, 100% 0, 100% 87%, 50% 100%, 0 87%);
+}
+.header .btn a {
+    position: fixed;
+    right: 0;
+    top: -38px;
+    padding: 20px;
+    z-index: 9;
+    transform: translateX(-17%);
+}
+.header h1 {
+    color: #F3DF7D;
+    font-size: 96px;
+    line-height: 130px;
+    margin-top: 105px;
+    font-weight: 400;
+    font-family: 'Noto Serif', serif;
+    padding: 0 10px;
+    text-transform: uppercase;
+}
+
+.header h1 span {font-weight: 700;}
+.header img {
+    margin-top: 55px;
+}
+
+.shadow {
+    box-shadow: 1px -1px 23px 1px #E5E5E5;
+    padding: 97px 50px;
+    border-radius: 15px;
+    background: #fff;
+}
+.single-item {
+    align-items: start;
+}
+.single-item p {
+    border-bottom: 2px solid #F3F3F3;
+    font-size: 24px;
+    line-height: 32px;
+    color: #0A1D34;
+    font-weight: 400;
+    font-family: 'Noto Serif', serif;
+    margin-left: 30px;
+    padding-bottom: 77px;
+    margin-bottom: 60px;
+    padding-right: 14px;
+    text-align: left;
+}
+
+.none-border p {
+    border: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.promo-text {
+    background: #164783;
+    padding-top: 100px;
+    position: relative;
+    margin-top: -100px;
+    z-index: -99;
+}
+.promo-text p {
+	color: #fff;
+	 font-size: 24px;
+	 line-height: 49px;
+	 font-family: 'Noto Serif';
+	 font-style: italic;
+	 padding: 100px 80px;
+	}
+
+.step-1 p {
+	margin-top: 76px;
+	margin-bottom: 85px;
+	color: #0A1D34;
+	font-size: 24px;
+	line-height: 32px;
+	font-weight: 400;
+}
+.step-1, .step-2 {
+    box-shadow: 1px -1px 23px 1px #E5E5E5;
+    width: 480px;
+    height: 620px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+.bookmark img {
+    margin-top: -20px;
+}
+.bookmark h2 {
+    margin-top: 3px;
+    font-size: 38px;
+    color: #0A1D34;
+    line-height: 51px;
+}
+
+section.nft {margin: 100px 0;}
+
+.btns a{
+	padding: 0 15px;
+}
+
+.nft-dsc p {
+    font-size: 24px;
+    line-height: 48px;
+    color: #29394D;
+    font-weight: 400;
+    font-family: 'Noto Serif', serif;
+    padding: 0px 85px;
+}
+
+.nft-dsc p span {
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 64px;
+}
+.nft-dsc h2 {
+    color: #0A1D34;
+    font-size: 38px;
+    line-height: 51px;
+    font-weight: 700;
+    font-family: 'Noto Serif', serif;
+    margin-bottom: 48px;
+}
+
+.nft-dsc > h2 {
+    font-size: 71px;
+    line-height: 96px;
+    margin-bottom: 114px;
+    margin-top: 75px;
+}
+
+.btn a {
+    font-size: 24px;
+    line-height: 32px;
+    padding: 18px 95px;
+    background: #2869B4;
+    color: #fff;
+    border-radius: 20px;
+    font-weight: 700;
+    display: block;
+    margin-top: 38px;
+    text-decoration: none;
+}
+.step-2 p {
+    margin-top: 145px;
+    margin-bottom: 41px;
+}
+
+
+section.free-nft h2 {
+    text-align: center;
+    color: #0A1D34;
+    font-size: 71px;
+    line-height: 96px;
+    font-weight: 700;
+    font-family: 'Noto Serif';
+    margin-bottom: 65px;
+}
+.nft-bottom p {
+    margin: 0 150px;
+    color: #61748B;
+}
+
+section.nft-offer {
+    background: #F4F4F3;
+    height: 156px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.offer-box p {
+    color: #0A1D34;
+}
+p.box-top {
+    background: #2869B4;
+    color: #fff;
+    padding: 10px 0;
+    border-radius: 15px;
+}
+.offer-box {
+    position: relative;
+    margin-top: -22px;
+}
+
+section.free-nft .container {position: relative;}
+
+section.free-nft .container:before {
+    position: absolute;
+    content: "";
+    z-index: -9;
+    background: #ededed;
+    width: 100%;
+    height: 337px;
+    background-position: center;
+    top: 35.5%;
+}
+
+.right-text p {padding: 0px 73px;margin-top: 47px;}
+
+p.free-nft-botton-text {
+    text-align: center;
+    font-weight: 700;
+    color: #000000;
+    padding: 0 115px;
+    margin-top: 20px;
+    margin-bottom: 145px;
+}
+
+
+.utility-details {background: #FFFFFF;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;padding: 85px 50px 60px;}
+    
+    .utility-details h2 {
+    
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 52px;
+    text-align: center;
+    
+    color: #164783;padding: 0px 140px;}
+    
+    .utility-list ul {list-style: none;padding: 0;margin: 0;}
+    
+    .utility-list ul li {margin-bottom: 55px;position: relative;padding-left: 56px;font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    
+    color: #0A1D34;}
+    
+    .utility-list ul li:last-child {margin-bottom: 0;}
+    
+    .utility-list {margin-top: 60px;}
+    
+    .utility-list ul li::before {
+        position: absolute;
+        content: "";
+        left: 0;
+        top: 3px;
+        width: 27px;
+        height: 27px;
+        /* background: url(../images/header-bg.png); */
+        background: url(../img/Bullet-coin.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+section.faq-area {
+    padding: 140px 0 105px;
+}
+.faq-area .container > h1 {
+font-weight: 700;
+font-size: 71px;
+line-height: 97px;
+text-align: center;
+}
+section.faq-area .container .row {
+margin-top: 78px;
+}
+
+.faq-area .container .row .accordion-button {
+font-family: 'Noto Serif';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 33px;
+color: #0A1D34;
+margin-left: 80px;
+}
+.faq-area .container .row .accordion-body{
+text-align: center;
+}
+
+.faq-area .container .row .accordion-body p{
+font-family: 'Noto Serif Display', serif;
+font-weight: 300;
+font-weight: 300;
+font-size: 24px;
+line-height: 33px;
+text-align: center;
+color: #0A1D34;
+}
+
+.faq-area .container .row .accordion-button:not(.collapsed) {
+color: #0A1D34;
+background-color: #fff;
+box-shadow: none;
+margin-left: 80px;
+}
+
+.faq-area .container .row .accordion-item {
+border: 0;
+border-top: 2px solid #EAEAEA;
+}
+.faq-area .container .row .accordion-item:last-child{
+border-bottom: 2px solid #EAEAEA;
+}
+
+
+.accordion .accordion-item .accordion-button::after {
+position: absolute;
+margin-left: -55px;
+transform: rotate(-90deg);
+background-image: url(../img/Vector.svg);
+}
+
+.accordion .accordion-item .accordion-button:not(.collapsed)::after {
+transform: rotate(0deg);
+}
+
+footer {
+    text-align: center;
+    background: #164783;
+    color: #fff;
+    padding: 62px 0;
+}
